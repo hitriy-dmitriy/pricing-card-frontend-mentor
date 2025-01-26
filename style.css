@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.attribution {
+    font-size: 16px;
+    padding-top: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-container {
+    width: 700px;
+    height: 400px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#top-block {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    padding: 25px;
+}
+
+.sub-container {
+    display: flex;
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+
+.bottom-block-1, .bottom-block-2 {
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+}
+
+.bottom-block-1 {
+    background-color: #2ab2af;
+}
+
+.bottom-block-2 {
+    background-color: #2ebfbd;
+}
+
+.bottom-block-2 ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+#top-block h2 {
+    color: #2ab2af; 
+    margin-bottom: 15px;
+}
+
+#top-block h3 {
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#top-block p {
+    color: grey;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+button {
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #a9c42d;
+    transform: scale(1.1);
+}
+
+.bottom-block-1 h2 {
+    margin-bottom: 25px;
+}
+
+.bottom-block-1 p {
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+#price, #per-month {
+    display: inline-block;
+}
+
+#per-month {
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+.price-container {
+    margin-bottom: 10px;
+}
